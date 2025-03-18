@@ -2,9 +2,13 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html",
-      "/posts/venn-diagram/index.html"
+      "/posts/2013-06-29-guttenberg/index.html",
+      "/posts/2013-06-24-maps-bigger/index.html",
+      "/posts/2013-02-23-poe-poetry/index.html",
+      "/posts/2013-02-23-turning-of-the-screw/index.html",
+      "/posts/2013-02-23-poe/index.html",
+      "/posts/2012-10-13-kill-bill/index.html",
+      "/posts/2012-06-10-venn-diagram/index.html"
     ]
   }
 ]

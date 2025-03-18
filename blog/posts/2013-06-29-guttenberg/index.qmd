@@ -1,0 +1,10 @@
+---
+title: "XIV century story"
+author: "Olgert Denas"
+date: "2013-06-29"
+categories: [books, excerpt, Guttenberg]
+---
+
+These schools taught arithmetic with the new arabic numerals, which Christian churches and monasteries mistrust-fully opposed, not just because they came from infidels, but equally because of the use of the nought, which, although it signifying nothing could when placed behind another figure multiply it ten-fold.
+
+(excerpt from Albert Kapr. “Johan Gutenberg. The man and his invention”. Scolar Press)

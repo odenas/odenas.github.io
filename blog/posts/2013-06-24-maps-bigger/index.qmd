@@ -1,0 +1,20 @@
+---
+title: "the art and technology of cartography"
+author: "Olgert Denas"
+date: "2013-06-24"
+categories: [books, borges, lewis carrol, alberto apostolico]
+---
+Icame across a nice story reading a book on Lewis Carrol.  From, L. Carroll’s Sylvie and Bruno Concluded (1893):
+
+“Myself: What a useful thing a pocket-map is!
+Mein Herr: That’s another thing we’ve learned from your nation, map-making. But we’ve carried it much further than you. What do you consider the largest map that would be really useful?
+Myself: About: six inches to the mile
+Mein Herr: Only six inches! We very soon got to six yards to the mile. Then we tried a hundred yards to the mile. And then came the grandest idea of all! We actually made a map of the country,  on the scale of a mile to the mile!
+Myself: Have you used it much?
+Mein Herr: It has never been spread out, yet: the farmers objected: they said it would cover the whole country, and shut out the sunlight! So we now use the country itself, as its own map, and I assure you it does nearly as well”
+
+It was a nice surprise to me because sometime earlier I had read a keynote [paper](https://www.research.unipd.it/handle/11577/1363080) on maximal words (maximality is a technical concept in data mining) and how they are a useful compact representation of big data. The analogy was taken from J.L. Borges’s “Viajes de Varones Prudentes”:
+
+“… in that Empire, the craft of Cartography attained such perfection that the map of a single province covered the space of an entire City, and the map of an Empire itself an entire Province. In the course of time, these extensive maps were found somewhat wanting, and so the College of Cartographers evolved a Map of the Empire that was the same scale as the Empire and that coincided with it point for point.”
+
+These passages seem so similar.

@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "blog",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 17, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 14, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nIndependent events and Venn diagams\n\n\n\n\n\n\nprobability\n\n\nevent\n\n\n\n\n\n\n\n\n\nOct 6, 2012\n\n\nOlgert Denas\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -28,10 +7,59 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/venn-diagram/index.html",
-    "href": "posts/venn-diagram/index.html",
+    "objectID": "posts/2013-06-29-guttenberg/index.html",
+    "href": "posts/2013-06-29-guttenberg/index.html",
+    "title": "XIV century story",
+    "section": "",
+    "text": "These schools taught arithmetic with the new arabic numerals, which Christian churches and monasteries mistrust-fully opposed, not just because they came from infidels, but equally because of the use of the nought, which, although it signifying nothing could when placed behind another figure multiply it ten-fold.\n(excerpt from Albert Kapr. “Johan Gutenberg. The man and his invention”. Scolar Press)"
+  },
+  {
+    "objectID": "posts/2012-10-13-kill-bill/index.html",
+    "href": "posts/2012-10-13-kill-bill/index.html",
+    "title": "Is Kill Bill a feminist movie?",
+    "section": "",
+    "text": "Ihave seen only pieces of the movie, one scene in particular made me notice the huge war of sexes with a clear winner: female.\nOne example is scene where The Bride (Uma Thurman) is about to fight the aides of O-Ren Ishii (Lucy Liu) and others. Just before the slaughter starts, O-Ren Ishii tells the owner of the club to run away (because things are about to get dirty). The guy shits his pants and runs away. What about his wife standing next to him? She remains. It seems like a stupid detail, but it got me thinking and I came up with the following interpretation: the owner of the restaurant, a servile coward man, cannot stand the cruelty of what is about to happen, but his wife can. Just minutes ago, the wife would call him to stand for his honor in front of absurd requests of O-Ren Ishii and her gang.\nThese parallelisms go on and on: minutes before the slaughter, O-Ren Ishii humiliates a man sitting in their table; At the same night, The Bride is about to kill hundreds of young Japanese man …\nIt kind of makes sense in broader terms too. There are three male types (i) bad guys samurai soldiers on suits and ties whose limbs are being chopped off like cattle and are being humiliated by a blonde american girl in their very own weapon: the sword. (ii) kung fu masters and sword makers and the like who are amazed by the super-abilities and determination of The Bride and swear fidelity and eternal friendship to her. (iii) Bill, a rat capable of very low actions betrayal etc. On the other hand, there is only one female type (some are good some bad, it doesn’t matter): badass females. When they kill, it is for high motivations or to defend their honor in such a masculine society."
+  },
+  {
+    "objectID": "posts/2013-02-23-turning-of-the-screw/index.html",
+    "href": "posts/2013-02-23-turning-of-the-screw/index.html",
+    "title": "From “Turning of the screw”",
+    "section": "",
+    "text": "The departing ladies who said they would stay didn’t, of course, thanks haven, stay\n[…]\nHe was handsome and bold and pleasant, offhand and gay and kind I broke the seal with great effort — so great a one that I was a long time coming into it"
+  },
+  {
+    "objectID": "posts/2013-06-24-maps-bigger/index.html",
+    "href": "posts/2013-06-24-maps-bigger/index.html",
+    "title": "the art and technology of cartography",
+    "section": "",
+    "text": "Icame across a nice story reading a book on Lewis Carrol. From, L. Carroll’s Sylvie and Bruno Concluded (1893):\n“Myself: What a useful thing a pocket-map is! Mein Herr: That’s another thing we’ve learned from your nation, map-making. But we’ve carried it much further than you. What do you consider the largest map that would be really useful? Myself: About: six inches to the mile Mein Herr: Only six inches! We very soon got to six yards to the mile. Then we tried a hundred yards to the mile. And then came the grandest idea of all! We actually made a map of the country, on the scale of a mile to the mile! Myself: Have you used it much? Mein Herr: It has never been spread out, yet: the farmers objected: they said it would cover the whole country, and shut out the sunlight! So we now use the country itself, as its own map, and I assure you it does nearly as well”\nIt was a nice surprise to me because sometime earlier I had read a keynote paper on maximal words (maximality is a technical concept in data mining) and how they are a useful compact representation of big data. The analogy was taken from J.L. Borges’s “Viajes de Varones Prudentes”:\n“… in that Empire, the craft of Cartography attained such perfection that the map of a single province covered the space of an entire City, and the map of an Empire itself an entire Province. In the course of time, these extensive maps were found somewhat wanting, and so the College of Cartographers evolved a Map of the Empire that was the same scale as the Empire and that coincided with it point for point.”\nThese passages seem so similar."
+  },
+  {
+    "objectID": "posts/2012-06-10-venn-diagram/index.html",
+    "href": "posts/2012-06-10-venn-diagram/index.html",
     "title": "Independent events and Venn diagams",
     "section": "",
     "text": "Have you noticed how one of the first things of which you start thinking when you talk abut events and their probability, are the Venn diagrams. However, when it comes to independence, Venn diagrams are really inappropriate.\nFirst, you cannot eye-spot two independent events in a Venn diagram, since you would have to recognize that the ratios are perfectly right (with circles in a blackboard this is quite hard).\nSecond, given that the words “independent” and “disjoint” are somewhat similar in real life, one might be tempted to see two disjoint circles in a Venn diagram as independent. Well, they are deterministically dependent.\nIf you draw squares, things become a little easier. Imagine four squares meeting at a vertex, with event A being the two left ones, and event B the two bottom ones. P(A) = P(A|B) = 1/2 so A and B are independent.\nCan you go up to three? Almost. You can extend the above picture to three, but pairwise independent events, by letting event C occupy the upper left and the bottom right. Can you draw three independent (in the strict sense) events? I gave up 🙂\nNow, are Venn diagrams really bad at independent events, or they are they really good? By ‘good’ I mean that they are just saying to us that independent events, in nature, are in some sort of exceptional equilibrium. Thus, it should be as hard to draw them as they are rare in nature."
+  },
+  {
+    "objectID": "posts/2013-02-23-poe-poetry/index.html",
+    "href": "posts/2013-02-23-poe-poetry/index.html",
+    "title": "on the definition of poetry",
+    "section": "",
+    "text": "It’s [poetry’s] intangible and purely spiritual nature refuses to be bound down within the widest horizon of mere sounds. But it is not, therefore, misunderstood — at least not by all men is it misunderstood."
+  },
+  {
+    "objectID": "posts/2013-02-23-poe/index.html",
+    "href": "posts/2013-02-23-poe/index.html",
+    "title": "on the meaning of fancy, imagination, fantasy, humor, and more",
+    "section": "",
+    "text": "I’m getting into Poe lately\nexcerpts from here\n… — “Fancy combines — Imagination creates.” This was intended, and has been received, as a distinction; but it is a distinction without a difference — without even a difference of degree. The Fancy as nearly creates as the imagination, and neither at all. Novel conceptions are merely unusual combinations. The mind of man can imagine nothing which does not exist: — if it could, it would create not only ideally, but substantially — as do the thoughts of God.\n[…]\nThe fact seems to be that Imagination, Fancy, Fantasy, and humor, have in common the elements, Combination, and Novelty.\n[…]\nFantasy seeks not merely disproportionate but incongruous or antagonistical elements, the effect is rendered more pleasurable from its greater positiveness; — there is a merry effort of Truth to shake from her that which is no property of hers; — and we laugh outright in recognizing Humor.\n[…]\nbut when either Fancy or Humor is expressed to gain an end — is pointed at a purpose — whenever either becomes objective in place of subjective — then it he comes, also, pure Wit or Sarcasm, just as the purpose is well-intentioned or malevolent."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "blog",
+    "section": "",
+    "text": "XIV century story\n\n\n\n\n\n\nbooks\n\n\nexcerpt\n\n\nGuttenberg\n\n\n\n\n\n\n\n\n\nJun 29, 2013\n\n\nOlgert Denas\n\n\n\n\n\n\n\n\n\n\n\n\nthe art and technology of cartography\n\n\n\n\n\n\nbooks\n\n\nborges\n\n\nlewis carrol\n\n\nalberto apostolico\n\n\n\n\n\n\n\n\n\nJun 24, 2013\n\n\nOlgert Denas\n\n\n\n\n\n\n\n\n\n\n\n\non the definition of poetry\n\n\n\n\n\n\npoe\n\n\nbooks\n\n\n\n\n\n\n\n\n\nFeb 23, 2013\n\n\nOlgert Denas\n\n\n\n\n\n\n\n\n\n\n\n\nFrom “Turning of the screw”\n\n\n\n\n\n\nbooks\n\n\nhenry james\n\n\n\n\n\n\n\n\n\nFeb 23, 2013\n\n\nOlgert Denas\n\n\n\n\n\n\n\n\n\n\n\n\non the meaning of fancy, imagination, fantasy, humor, and more\n\n\n\n\n\n\nbooks\n\n\npoe\n\n\n\n\n\n\n\n\n\nFeb 23, 2013\n\n\nOlgert Denas\n\n\n\n\n\n\n\n\n\n\n\n\nIs Kill Bill a feminist movie?\n\n\n\n\n\n\nmovie\n\n\n\n\n\n\n\n\n\nOct 13, 2012\n\n\nOlgert Denas\n\n\n\n\n\n\n\n\n\n\n\n\nIndependent events and Venn diagams\n\n\n\n\n\n\nprobability\n\n\nevent\n\n\n\n\n\n\n\n\n\nOct 6, 2012\n\n\nOlgert Denas\n\n\n\n\n\n\nNo matching items"
   }
 ]
