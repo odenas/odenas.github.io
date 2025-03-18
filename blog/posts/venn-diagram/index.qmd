@@ -1,0 +1,18 @@
+---
+title: "Independent events and Venn diagams"
+author: "Olgert Denas"
+date: "2012-10-06"
+categories: [probability, event]
+---
+
+Have you noticed how one of the first things of which you start thinking when you talk abut events and their probability, are the Venn diagrams. However, when it comes to independence, Venn diagrams are really inappropriate.
+
+First, you cannot eye-spot two independent events in a Venn diagram, since you would have to recognize that the ratios are perfectly right (with circles in a blackboard this is quite hard).
+
+Second, given that the words “independent” and “disjoint” are somewhat similar in real life, one might be tempted to see two disjoint circles in a Venn diagram as independent. Well, they are deterministically dependent.
+
+If you draw squares, things become a little easier. Imagine four squares meeting at a vertex, with event A being the two left ones, and  event B the two bottom ones. P(A) = P(A|B) = 1/2 so A and B are independent.
+
+Can you go up to three? Almost. You can extend the above picture to three, but *pairwise* independent events, by letting event C occupy the upper left and the bottom right. Can you draw three independent (in the strict sense) events? I gave up 🙂
+
+Now, are Venn diagrams really bad at independent events, or they are they really good? By ‘good’ I mean that they are just saying to us that independent events, in nature, are in some sort of exceptional equilibrium. Thus, it should be as hard to draw them as they are rare in nature.
