@@ -1,0 +1,10 @@
+---
+title: "Existentialism"
+author: "Olgert Denas"
+date: "2013-08-27"
+categories: [books, existantialism, excerpt]
+---
+
+I had encountered definitions of the term before, but none I could remember. Here is one from W. Kaufmann’s “Existentialism from Dostoevsky to Sartre.”
+
+“The refusal to belong to any school of thought, the repudiation of the adequacy of any body of beliefs whatever, and especially of systems, and a marked dissatisfaction with traditional philosophy as superficial, academic, and remote from life — that is at the heart of existentialism.”

@@ -2,6 +2,6 @@
 title: "on the definition of poetry"
 author: "Olgert Denas"
 date: "2013-02-23"
-categories: [poe, books]
+categories: [poe, books, excerpt]
 ---
 It’s [poetry’s] intangible and purely spiritual nature refuses to be bound down within the widest horizon of mere sounds. But it is not, therefore, misunderstood — at least not by all men is it misunderstood.

@@ -1,0 +1,13 @@
+---
+title: "Social media: tobacco or ice-cream?"
+author: "Olgert Denas"
+date: "2016-09-06"
+categories: [books, Jonathan Hari, advertisement, social media]
+---
+Among other things “Stolen Focus” by J. Hari discusses a really interesting question on social media regulation.
+
+The tobacco side of the argument is this. Social media platforms are businesses that make money on their user’s (i.e., people browsing the content and posting it, not the advertisers) attention. It turns out it is not very healthy for us users. Furthermore, us users, even the best of us, cannot do anything to fight these platforms from stealing our focus — they have been designed and built by some of the smartest engineers and psychologists out there, and they are now an integral part of our daily lives. So, like tobacco, let’s regulate and wait for the world distraction index (I made this up), like the lung cancer rates to go down.
+
+The ice-cream argument goes like this. First of all, it is not true that we are powerless agains these platforms. With some exceptions, we can use them responsibly. Regulation is likely to be less effective (Likely the outcome GDPR has trained people to click “Accept all cookies”) than the industry adapting to the landscape. This argument, rings all kinds of alarm bells on my head — think of car emissions, environmental goals set by businesses etc. — but this is different, since attention is such a core part of the business model for these platforms (unlike the air quality for car companies). If they don’t adapt their users will leave.
+
+I partly agree with both arguments. It is impossible to live without social media, but one can choose how to use them. This might be more for some than for others (kids), which is where regulation might be needed. If you read the book, definitely check out the raw audio interview with Nir Eyal on the book website.

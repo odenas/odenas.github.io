@@ -2,7 +2,7 @@
 title: "From \"Turning of the screw\""
 author: "Olgert Denas"
 date: "2013-02-23"
-categories: [books, henry james]
+categories: [books, henry james, excerpt]
 ---
 
 The departing ladies who said they would stay didn’t, of course, thanks haven, stay

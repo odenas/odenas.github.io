@@ -5,6 +5,12 @@ listing:
   sort: "date desc"
   type: default
   categories: true
+  fields:
+    - title
+    - subtitle
+    - description
+    - date
+    - categories
   sort-ui: false
   filter-ui: false
 page-layout: full

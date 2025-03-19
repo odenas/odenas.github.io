@@ -2,7 +2,7 @@
 title: "on the meaning of fancy, imagination, fantasy, humor, and more"
 author: "Olgert Denas"
 date: "2013-02-23"
-categories: [books, poe]
+categories: [books, poe, excerpt]
 ---
 
 I’m getting into Poe lately

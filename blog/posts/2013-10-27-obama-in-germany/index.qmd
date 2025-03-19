@@ -1,0 +1,8 @@
+---
+title: "Pepita secondo Adriano Meis"
+author: "Olgert Denas"
+date: "2013-08-27"
+categories: [books, pirandello, excerpt]
+draft: true
+---
+
