@@ -2,7 +2,7 @@
 title: "“Future” of scientific discoveries"
 author: "Olgert Denas"
 date: "2016-05-12"
-categories: [photography, the schoold of life]
+categories: [John Ballard]
 ---
 
 Barber: What about [Barnard](https://en.wikipedia.org/wiki/Christiaan_Barnard)?

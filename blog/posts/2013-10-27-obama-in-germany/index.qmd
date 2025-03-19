@@ -1,8 +1,9 @@
 ---
-title: "Pepita secondo Adriano Meis"
+title: "a people of improbable hope"
 author: "Olgert Denas"
-date: "2013-08-27"
-categories: [books, pirandello, excerpt]
+date: "2013-10-27"
+categories: [photography]
 draft: true
 ---
 
+![July 24, 2008. Berlin](july24_08_berlin_200k_victorycolumn_centerberlin_ddp1.webp)

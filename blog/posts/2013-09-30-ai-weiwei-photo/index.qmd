@@ -1,9 +1,0 @@
----
-title: "Ai Weiwei "
-author: "Olgert Denas"
-date: "2013-08-27"
-categories: [photography, ai weiwei]
-draft: true
----
-
-

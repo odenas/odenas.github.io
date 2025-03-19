@@ -2,7 +2,7 @@
 title: "Independent events and Venn diagams"
 author: "Olgert Denas"
 date: "2012-10-06"
-categories: [probability, event]
+categories: [probability]
 ---
 
 Have you noticed how one of the first things of which you start thinking when you talk abut events and their probability, are the Venn diagrams. However, when it comes to independence, Venn diagrams are really inappropriate.
