@@ -1,0 +1,65 @@
+---
+title: "Acidic and basic foods"
+author: "Olgert Denas"
+date: "2025-03-27"
+categories: [ai-coversations, food]
+---
+
+:::{.callout-note}
+Disclaimer. This information has been curated from a conversational ai.
+:::
+
+> Give examples of alkaline and acidic foods.
+
+It's important to understand that the concept of "alkaline" and "acidic" foods refers to the effect they have on your body *after* digestion, not their inherent pH. Here's a breakdown with examples:
+
+**Alkaline Foods**
+
+These foods are thought to leave alkaline "ash" in the body after digestion. They are generally rich in minerals like calcium, magnesium, and potassium.
+
+*   **Vegetables:** Most vegetables are alkaline, especially:
+    *   Leafy greens (spinach, kale, lettuce)
+    *   Root vegetables (beets, carrots, sweet potatoes)
+    *   Cruciferous vegetables (broccoli, cauliflower, cabbage)
+    *   Others (cucumber, celery, peppers)
+*   **Fruits:** Most fruits are also alkaline, particularly:
+    *   Berries
+    *   Citrus fruits (lemons, limes, oranges - despite being acidic before digestion)
+    *   Melons
+    *   Avocados
+*   **Nuts and Seeds:** Some nuts and seeds are alkaline, including:
+    *   Almonds
+    *   Pumpkin seeds
+*   **Legumes:**
+    *   Lentils
+    *   Beans (kidney beans, lima beans)
+
+**Acidic Foods**
+
+These foods are thought to leave acidic "ash" in the body after digestion. They often contain higher levels of protein, phosphate, and sulfur.
+
+*   **Meat and Poultry:**
+    *   Beef
+    *   Pork
+    *   Chicken
+    *   Turkey
+*   **Fish and Seafood**
+*   **Dairy:**
+    *   Milk
+    *   Cheese
+    *   Yogurt
+*   **Eggs**
+*   **Grains:**
+    *   Wheat
+    *   Rice
+    *   Corn
+*   **Processed Foods:** Many processed foods, including packaged snacks and convenience foods, tend to be acidic.
+*   **Alcohol and Caffeine**
+
+**Important Notes:**
+
+*   **The pH scale:** The pH scale ranges from 0 to 14, with 7 being neutral. Values below 7 are acidic, and values above 7 are alkaline.
+*   **Body pH regulation:** Your body has sophisticated mechanisms to maintain a stable pH level in your blood, regardless of your diet. While the alkaline diet is a popular concept, there's limited scientific evidence to support many of its claimed health benefits.
+*   **Overall diet:** Focusing on a balanced diet rich in fruits, vegetables, and whole grains is more important than strictly adhering to an alkaline or acidic food list.
+
+If you have specific health concerns or are considering making significant dietary changes, it's always best to consult with a healthcare professional or registered dietitian.
