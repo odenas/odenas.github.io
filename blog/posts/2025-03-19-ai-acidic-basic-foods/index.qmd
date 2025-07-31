@@ -2,7 +2,7 @@
 title: "Acidic and basic foods"
 author: "Olgert Denas"
 date: "2025-03-27"
-categories: [ai-coversations, food]
+categories: [ai-conversations, food]
 ---
 
 :::{.callout-note}
