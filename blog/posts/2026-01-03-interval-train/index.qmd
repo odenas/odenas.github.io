@@ -9,24 +9,12 @@ format:
         toc: true
         code-fold: true
         self-contained: true
+execute: 
+  warning: false
+  echo: true
 ---
 
-Wearing a heart rate monitor during exercise is great, but wearing it after the exercise is important too! HRR-60 
-
-This report analyzes heart rate variability and recovery during a treadmill session featuring intervals transitioning between **12 min/mile** and **8 min/mile**. By applying Bayesian B-Splines, I decompose the signal into continuous acceleration metrics and extract, as metrics of fitness: 
-
-* Punch: Max slope between two points.
-* HRR-60: Difference at $T_{720}$​ and $T_{780}$​.
-* Intervals,When HR > 150 bpm.
-* 
-These can be compared across training sessions and build trends of improvement as I keep exercising.
-
-
-
-## The model
 ```{python}
-#| label: setup
-#| include: false
 import numpy as np
 import pandas as pd
 import pymc as pm
@@ -76,17 +64,10 @@ class WorkoutConfig:
         return windows
 
     def get_cooldown_window(self) -> Tuple[int, int]:
-        """Calculates the recovery window (start of cooldown to 60s in)."""
-        current_time = 0
-        for phase in self.phases:
-            # We look for the start of the final 'cooldown' phase
+        for phase, (s, e) in self.iter_phases():
             if phase.intensity == 'cooldown':
-                return (current_time, current_time + 60)
-            current_time += phase.duration_sec
+                return s, e
         raise ValueError("No cooldown phase defined in config.")
-    
-
-
 
 def read_csv(file):        
     df = pd.read_csv(file, skiprows=2).iloc[:, 1:3]
@@ -438,11 +419,6 @@ class TreadmillReport:
         ax = sns.pointplot(x='session_date', y='cc', hue='Interval', data=cc_df, legend='brief')
         ax.set_ylabel("Cardiac Cost (Total Beats)")
         sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
-```
-
-# DRAFT
-## Data
-```{python}
 
 
 # Your current specific workout: 3 reps of (3m low, 1m high) + 2m cooldown
@@ -453,18 +429,63 @@ standard_3x4 = WorkoutConfig(phases=[
     WorkoutPhase("Cd", 120, 'cooldown')
 ])
 
+_cdw = standard_3x4.get_cooldown_window()
+
 file_paths = list(sorted(Path("polar_data").glob("*.CSV")))
-report = TreadmillReport(standard_3x4, file_paths, False)
+report = TreadmillReport(standard_3x4, file_paths, True)
+ign_session = report.sessions[-1]
+ex_session = report.sessions[-2]
+ex_time_point = 310
+
+```
+
+If you use a heart rate monitor to monitor your exercise, it is important to wear it a few minutes after the exercise. In those minutes your body recovers and your heart rate drops until it reaches it's normal rate. The faster the heart does that the better – a drop of $\geq 25$ BPMs each minute is good, the higher the better.
+
+There are other things one can measure during the exercise. For an interval training run, where you alternate between a 1 minute 8min/mile sprint (`S`) and a light 3 minute 12min/mile recovery (`R`) run, one can measure:
+
+-   how fast the heart reaches it's high rate as you start to sprint, or the punch – the faster the better
+
+-   whether the first punch is as high as the last punch – if so, your endurance is good.
+
+-   how fast it beats during a sprint – if it can get away with a smaller rate, it means it is more efficient
+
+The problem is, hear rate monitors are not perfect. My polar band (a strap around the chest), is noisy so measuring these values is hard on the raw data. But one can fit a curve, and measure these values on the curve. Which exactly what we'll do here!
+
+Here are the data for `{python} len(report.sessions)` exercise sessions. I start monitoring as soon as I start running, the `{python} (_cdw[1] - _cdw[0]) // 60` minutes of cool down start at second `{python} standard_3x4.get_cooldown_window()[0]`.
+
+```{python}
 report.plot_raw_data()
 ```
 
+Below are the median heart rate and acceleration from the fitted (generative) models over the last few exercise sessions. The rightmost model is the prior.
 
-## Model validation
 ```{python}
-fig, axes = plt.subplots(ncols=len(report.sessions), nrows=2, figsize=(14, 6), sharex=True, sharey='row')
+fig, axes = plt.subplots(ncols=len(report.sessions[-3:]), nrows=2, figsize=(14, 6), sharex=True, sharey='row')
 report.plot_fit_accel(fig, axes)
 ```
 
+At each second the model provides a (posterior) distribution for the heart rate or its acceleration. For example, this is the distribution of the heart rate for the exercise session `{python} ex_session.session_id` at two time points.
+
+```{python}
+ex_session = report.sessions[0]
+ex_time_spot1 = 120
+ex_time_spot2 = 230
+samples = ex_session.post_mu.shape[0]
+sns.displot(data=pd.DataFrame(
+    {
+        'heart_rate': np.concatenate([ex_session.post_mu[:,ex_time_spot1], ex_session.post_mu[:,ex_time_spot2]]),
+        'time_spot': ([f"second {ex_time_spot1}"] * samples) + ([f"second {ex_time_spot2}"] * samples)
+    }
+
+    ), x='heart_rate', hue='time_spot', kind='kde'
+)
+```
+
+Below is my fitness evolution:
+
+-   left plot is the first punch vs. HRR – I want the path to go north-east
+
+-   right plot is the first vs. last punch – I want the path to match the `x=y` line
 
 ```{python}
 report = TreadmillReport(standard_3x4, file_paths, False)
@@ -474,13 +495,10 @@ report.plot_trend_vector(fig, ax_quad[1], 'pp')
 ax_quad[1].axline((0, 0), slope=1, color='r', linestyle='--', label='$x=y$ line'); ax_quad[1].legend()
 ```
 
-
+Below is also the total cardiac cost (total heart beats per interval). Recovery intervals are higher because they are longer. I want these lines to trend down.
 
 ```{python}
 report.plot_cardiac_cost()
 ```
-## Conclusion
 
-
-
-
+##
